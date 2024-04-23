@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
--  [Solution:](https://your-solution-url.com)
--  [Live Site:](https://your-live-site-url.com)
+-  [Solution](https://www.frontendmentor.io/solutions/article-prewview-component-uPYCDrsq04)
+-  [Live Site](https://akash02ab.github.io/article-preview/)
 
 
 ### Built with

@@ -182,5 +182,24 @@ body {
   .container .card .profile {
     padding: 14px 36px;
     border-radius: 0 0 12px 0;
+    position: relative;
+  }
+  .container .card .profile .social {
+    position: absolute;
+    top: -68px;
+    right: -82px;
+    padding: 12px 36px;
+    border-radius: 8px;
+    background-color: var(--very-dark-grayish-blue);
+  }
+  .container .card .profile .social::after {
+    content: "";
+    border-top: solid 12px var(--very-dark-grayish-blue);
+    border-left: solid 12px transparent;
+    border-right: solid 12px transparent;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }/*# sourceMappingURL=style.css.map */

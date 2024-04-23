@@ -4,9 +4,13 @@ const social = document.querySelector('.social');
 const share = document.getElementById('share-btn');
 
 share.addEventListener('click', () => {
-  console.log(profile)
-  profile.classList.toggle('dark');
-  about.classList.toggle('show');
+  const currWidth = window.screen.width;
+
+  if (currWidth < 920) {
+    profile.classList.toggle('dark');
+    about.classList.toggle('show');
+  }
+
   social.classList.toggle('show');
   share.classList.toggle('active');
 });

@@ -188,6 +188,7 @@ body {
     align-items: center;
 
     img {
+      width: 270px;
       height: 100%;
       border-radius: 12px 0 0 12px;
     }
@@ -205,6 +206,27 @@ body {
       .profile {
         padding: 14px 36px;
         border-radius: 0 0 12px 0;
+        position: relative;
+
+        .social {
+          position: absolute;
+          top: -68px;
+          right: -82px;
+          padding: 12px 36px;
+          border-radius: 8px;
+          background-color: var(--very-dark-grayish-blue);
+
+          &::after {
+            content: '';
+            border-top: solid 12px var(--very-dark-grayish-blue);
+            border-left: solid 12px transparent;
+            border-right: solid 12px transparent;
+            position: absolute;
+            bottom: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+          }
+        }
       }
     }
   }
